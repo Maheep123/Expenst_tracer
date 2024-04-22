@@ -1,0 +1,406 @@
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('./assets/fonts/quicksand/quicksand-variablefont_wght-webfont.woff2') format('woff2'),
+         url('./fonts/quicksand/quicksand-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'handwriting';
+    src: url('./assets/fonts/coveredbyyourgrace/CoveredByYourGrace.woff2') format('woff2'),
+        url('./assets/fonts/coveredbyyourgrace/CoveredByYourGrace.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'fantasque';
+    src: url('./assets/fonts/fantasque/FantasqueSansMono-Regular.woff2') format('woff2'),
+        url('./assets/fonts/fantasque/FantasqueSansMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'fantasque-bold';
+    src: url('./assets/fonts/fantasque/FantasqueSansMono-Bold.woff2') format('woff2'),
+        url('./assets/fonts/fantasque/FantasqueSansMono-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'fantasque-italic';
+    src: url('./assets/fonts/fantasque/FantasqueSansMono-Italic.woff2') format('woff2'),
+        url('./assets/fonts/fantasque/FantasqueSansMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'fantasque-bolditalic';
+    src: url('./assets/fonts/fantasque/FantasqueSansMono-BoldItalic.woff2') format('woff2'),
+        url('./assets/fonts/fantasque/FantasqueSansMono-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.customise {
+    text-align: right;
+    padding-right: 188px;
+    padding-top: 20px;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+}
+
+img:hover {
+    cursor: crosshair;
+    border: 1px solid white;
+}
+
+h2 {
+    font-family: 'handwriting';
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h3, h4 {
+    font-family: 'quicksand';
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+h5 {
+    font-family: 'fantasque';
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.budget-content h5 {
+    margin-left: 30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+form[transaction-data-id] {
+    width: 1000px;
+}
+
+.col-one h5 {
+    margin-left: 15px;
+}
+
+.col-one p {
+    margin-left: 15px;
+}
+
+.edit-transaction, .delete-transaction {
+    width: 30px;
+}
+
+header { 
+    visibility: hidden;
+}
+
+header h2 {
+    text-align: center;
+    font-family: 'handwriting';
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+div.sign-in, div.sign-up {
+    margin: auto;
+    width: 400px;
+    background-color: #C9F5B8;
+    padding: 50px 60px 50px 60px;
+}
+
+label {
+    font-family: 'fantasque';
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+input[type='text'], input[type='password'] {
+    font-family: 'fantasque';
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 10px;
+    width: 390px;
+}
+
+body {
+    font-family: 'quicksandlight';
+}
+
+form.new-transaction {
+    width: 1000px;
+    margin-left: 20px;
+}
+
+form[transaction-data-id].edit-transaction {
+    margin-left: 20px;
+}
+
+form[transaction-data-id].edit-transaction div {
+    display: inline-block;
+    width: 137px;
+}
+
+.wrapper { 
+    width: 300px;
+}
+
+div[data-color="green"] {
+    background-color: #C9F5B8; 
+}
+
+div[data-color="orange"] {
+    background-color: #F5DCC7; 
+}
+
+div[data-color="lilac"] {
+    background-color: #E0C7F5; 
+}
+
+div[data-color="salmon"] {
+    background-color: #F5C7CF; 
+}
+
+
+.button { 
+    background-color: transparent;
+    /* background-color: #C9F5B8; Green */
+    border: 1px solid black;
+    color: black;
+    font-family: 'quicksandlight';
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.centered-button {
+    width: 398px;
+    text-align: center;
+}
+
+.button:hover {
+    border: 1px solid #DCDCDC;
+    color: #DCDCDC;
+    cursor: crosshair;
+}
+  
+h5[budget-data-id]:hover {
+    cursor: crosshair;
+    color: #DCDCDC;
+}
+
+.transactions-header {
+    display: table-row;
+    margin-left: 30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #FFF;
+}
+
+div[budget-data-id].total {
+    display: table-row;
+    margin-left: 30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #FFF;
+}
+
+div[budget-data-id].total p {
+    font-family: 'fantasque-bolditalic';
+}
+
+div[budget-data-id].transactions-container {
+    display: table;
+    background: transparent;
+    margin-top:10px;
+    width: 1000px;
+    margin-bottom:0px;
+}
+
+.row  {
+    display: table-row;
+    margin-left: 30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.col-one, .col-two, .col-three, .col-four, .col-five {
+    display: table-cell;
+}
+
+.col-one {
+    width: 130px;
+}
+
+.col-two {
+    width: 650px;
+}
+
+.col-three {
+    width: 100px;
+}
+
+.col-three p {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.col-four {
+    width: 50px;
+}
+
+.col-five {
+    width: 70px;
+}
+
+div.create-budget {
+    width: 1010px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-budget button {
+    margin: 5px;
+}
+
+.create-budget div.create-and-sort {
+    align-self: left;
+}
+
+form.create-budget {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #C9F5B8; */
+    padding: 10px;
+}
+
+form.create-budget label {
+    margin-left: 30px;
+}
+
+form.create-budget input {
+    margin-left: 60px;
+}
+
+select {
+    font-family: 'fantasque';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+div[budget-data-id] {
+    /* background-color: #C9F5B8; */
+    width: 1010px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 30px;
+}
+
+div[transaction-data-id] {
+    background-color: #FFF;
+}
+
+p {
+    font-family: 'fantasque';
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.transaction-title {
+    align-self: left;
+}
+
+.budget-header {
+    /* background-color: #C9F5B8; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.budget-header button {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.dates-header h6 {
+    font-family: 'fantasque';
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+div[budget-data-id].budget-content {
+    width: 980px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.budget-footer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.budget-footer button {
+    margin-left: auto;
+}
+
+.budget-title {
+    flex-grow: 4;
+}
+
+
+button.star-budget {
+    border: none
+}
+
+button.star-budget:hover {
+    border: none;
+}
+
+li { 
+    font-family: 'fantasque';
+    font-size: 13px;
+    letter-spacing: 1px;
+}
